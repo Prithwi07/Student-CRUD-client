@@ -1,0 +1,11 @@
+<div>
+    <form>
+        <label for="name"><b>Enter ID</b></label>
+        <input type="text" placeholder="Enter your ID" [(ngModel)]="id" name="id" required>
+
+        <button type="submit" class="registerbtn" (click)="deleteStudent()">Delete</button>
+
+    </form>
+
+</div>
+<h2>{{message}}</h2>

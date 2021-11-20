@@ -1,0 +1,16 @@
+<div>
+    <form>
+
+        <label for="id"><b>Enter Id</b></label>
+        <input type="text" placeholder="Enter your ID" [(ngModel)]="id" name="id" required>
+
+        <label for="marks"><b>New Marks</b></label>
+        <input type="text" placeholder="Enter updated marks" [(ngModel)]="marks" name="marks" required>
+
+        <button type="submit" class="registerbtn" (click)="updateMarks()">Update</button>
+
+    </form><br>
+
+
+</div>
+<h2>{{message}}</h2>
